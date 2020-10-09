@@ -35,6 +35,7 @@ li
     background-color: #8ac2e1;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: bold;
+    font-size: 1em;
     height: 30px;
     width: 60px;
     text-align: center;
@@ -46,6 +47,7 @@ li
     flex-wrap: wrap; 
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: bold;
+    font-size: 1em;
     height: 30px;
     width: 60px;
     text-align: center;
@@ -54,4 +56,11 @@ li
 .active
 {
     background-color: #449ac9;
+}
+.home
+{
+    padding: 50px;
+    background-color: #c2a990;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1em;
 }
