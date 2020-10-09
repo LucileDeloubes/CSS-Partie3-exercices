@@ -35,20 +35,11 @@ li
 {
     display: inline-block;
     height: 30px;
-    padding: 15px;
-    align-items: center;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    background-color: #8ac2e1;
-}
-/* span
-{
-    height: 50px;
     padding: 10px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 1em;
     background-color: #8ac2e1;
-} */
+}
 form
 {
     align-items: center;
@@ -59,4 +50,88 @@ form
     background-color: #c2a990;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 1em;
+}
+.bloc
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+}
+.bloc1
+{
+    background-color: blueviolet;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+}
+.bloc2
+{
+    background-color: green;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+}
+.bloc3
+{
+    background-color: mediumblue;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+}
+.image1
+{
+    background-image: url(../IMG/tokyo.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 90%;
+}
+.image2
+{
+    background-image: url(../IMG/edimbourg.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 90%;
+}
+.image3
+{
+    background-image: url(../IMG/quebec.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 90%;
+}
+.titleP
+{
+    background-color:white;
+    height: 10%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.description
+{
+    background-color:white;
+    height: 30%;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    margin: 10px;
+    padding: 3px;
 }
