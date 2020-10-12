@@ -1,44 +1,62 @@
+
 body
 {
     margin: 0;
+    background-color: #8ac2e1;
 }
+@media screen and (max-width: 480px){
+    body{
+        background-color: green;
+    }
+    }
 header
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 368px;
     background-image: url(../IMG/header.jpg);
-    background-size: cover
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1
 {
-    
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 3em; 
 }
 nav
 {
     width: 100%;
-    height: 50px;
-    display: flex;
-    display: inline;
-    flex-wrap: wrap;
-
 }
 ul
 {
+    display: flex;
+    justify-content: space-evenly center;
+    align-items: center;
     list-style-type: none;
     padding-left: 0;
 }
 li
 {
-    display: inline-block;
-    height: 30px;
     padding: 10px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 1em;
-    background-color: #8ac2e1;
+    font-weight: bold;
+    border: thick double #c2a990;
+    border-radius: 10px;
+}
+li:hover
+{
+    background-color: #449ac9;
+}
+.menu
+{
+    background-color: green;
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 form
 {
@@ -62,7 +80,7 @@ form
 }
 .bloc1
 {
-    background-color: blueviolet;
+    background-color: #e5cdb5;
     height: 90%;
     width: 30%;
     display: flex;
@@ -73,7 +91,7 @@ form
 }
 .bloc2
 {
-    background-color: green;
+    background-color: #e5cdb5;
     height: 90%;
     width: 30%;
     display: flex;
@@ -84,7 +102,7 @@ form
 }
 .bloc3
 {
-    background-color: mediumblue;
+    background-color: #e5cdb5;
     height: 90%;
     width: 30%;
     display: flex;
@@ -92,6 +110,18 @@ form
     justify-content: space-evenly;
     align-items: center;
     padding-top: 8px;
+}
+.bloc1:hover
+{
+    background-color: #c2a990 ;
+}
+.bloc2:hover
+{
+    background-color: #c2a990 ;
+}
+.bloc3:hover
+{
+    background-color: #c2a990 ;
 }
 .image1
 {
